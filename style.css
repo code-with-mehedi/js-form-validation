@@ -1,0 +1,40 @@
+.cwm-form-container {
+  width: 450px;
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#cwmForm {
+  width: 90%;
+  display: block;
+  background: #000;
+  color: #fff;
+  padding: 10%;
+}
+#formTitle {
+  text-align: center;
+}
+.cwm-input-wrapper {
+  margin-bottom: 15px;
+}
+#cwmForm input {
+  display: block;
+  overflow: hidden;
+  width: 90%;
+  padding: 10px 0 10px 5px;
+  border: none;
+  font-size: 18px;
+}
+#cwmSubmit {
+  font-size: 20px;
+  width: 100%;
+  background: yellow;
+  font-weight: bold;
+}
+.cwm-input-wrapper .error {
+  color: red;
+  visibility: hidden;
+}
+.cwm-input-wrapper.error .error {
+  visibility: visible;
+}
